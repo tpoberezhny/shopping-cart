@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "IPhone 14 Pro",
+    "price": 33499,
+    "imgUrl": "/imgs/iphone14pro.png"
+  },
+  {
+    "id": 2,
+    "name": "IMac 24",
+    "price": 32663,
+    "imgUrl": "/imgs/imac.png"
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch SE",
+    "price": 17398,
+    "imgUrl": "/imgs/apple-watch.png"
+  },
+  {
+    "id": 4,
+    "name": "IPhone 14 Pro",
+    "price": 33490,
+    "imgUrl": "/imgs/iphone14pro.png"
+  },
+  {
+    "id": 5,
+    "name": "IPhone 14 Pro",
+    "price": 33490,
+    "imgUrl": "/imgs/iphone14pro.png"
+  },
+  {
+    "id": 6,
+    "name": "IPhone 14 Pro",
+    "price": 33490,
+    "imgUrl": "/imgs/iphone14pro.png"
+  },
+  {
+    "id": 7,
+    "name": "IPhone 14 Pro",
+    "price": 33490,
+    "imgUrl": "/imgs/iphone14pro.png"
+  },
+  {
+    "id": 8,
+    "name": "IPhone 14 Pro",
+    "price": 33490,
+    "imgUrl": "/imgs/iphone14pro.png"
+  }
+]
