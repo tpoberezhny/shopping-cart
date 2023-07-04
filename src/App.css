@@ -23,7 +23,7 @@ span {
 
 @layer base {
   .btn {
-    @apply text-[15px] tracking-[1px] uppercase flex-1 transition-all flex justify-center items-center bg-black text-white rounded-lg p-2;
+    @apply text-[15px] tracking-[1px] uppercase flex-1 transition-all flex justify-center items-center bg-black text-white rounded-lg p-2 hover:shadow-[0px_20px_30px_rgba(0,0,0,0.06)] hover:translate-y-[-5px] hover:bg-black hover:text-white;
   }
 
   .dangerBtn {

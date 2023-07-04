@@ -31,6 +31,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
       <div className="flex flex-col">
         <div className="flex justify-between mb-10 px-5">
           <span>{name}</span>
+          <div>|</div>
           <span>{formatCurrency(price)}</span>
         </div>
       </div>

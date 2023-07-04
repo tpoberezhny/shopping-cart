@@ -7,44 +7,44 @@
   },
   {
     "id": 2,
-    "name": "IMac 24",
+    "name": "Apple IMac 24",
     "price": 32663,
     "imgUrl": "/imgs/imac.png"
   },
   {
     "id": 3,
-    "name": "Apple Watch SE",
+    "name": "Apple Watch",
     "price": 17398,
     "imgUrl": "/imgs/apple-watch.png"
   },
   {
     "id": 4,
-    "name": "IPhone 14 Pro",
-    "price": 33490,
-    "imgUrl": "/imgs/iphone14pro.png"
+    "name": "XBOX One",
+    "price": 12590,
+    "imgUrl": "/imgs/xbox.png"
   },
   {
     "id": 5,
-    "name": "IPhone 14 Pro",
-    "price": 33490,
-    "imgUrl": "/imgs/iphone14pro.png"
+    "name": "Macbook 13",
+    "price": 21990,
+    "imgUrl": "/imgs/macbook.png"
   },
   {
     "id": 6,
-    "name": "IPhone 14 Pro",
-    "price": 33490,
-    "imgUrl": "/imgs/iphone14pro.png"
+    "name": "Keyron 24B",
+    "price": 4290,
+    "imgUrl": "/imgs/keyboard.png"
   },
   {
     "id": 7,
-    "name": "IPhone 14 Pro",
-    "price": 33490,
-    "imgUrl": "/imgs/iphone14pro.png"
+    "name": "Dan Speaker",
+    "price": 3460,
+    "imgUrl": "/imgs/speakers.png"
   },
   {
     "id": 8,
-    "name": "IPhone 14 Pro",
-    "price": 33490,
+    "name": "IPhone 13 Pro",
+    "price": 26490,
     "imgUrl": "/imgs/iphone14pro.png"
   }
 ]
