@@ -37,17 +37,28 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
       {/* add/count section */}
       <div className="flex justify-center item-center mx-auto w-[250px]">
         {quantity === 0 ? (
-          <button className="btn" onClick={() => increaseCartQuantity(id)}>Add to cart</button>
+          <button className="btn" onClick={() => increaseCartQuantity(id)}>
+            Add to cart
+          </button>
         ) : (
           <div className="flex items-center flex-col gap-2">
             <div className="flex items-center justify-center gap-2 mt-[-15px] mb-2">
-              <button className="btn w-[50px]" onClick={() => decreaseCartQuantity(id)}>-</button>
+              <button
+                className="btn w-[50px]"
+                onClick={() => decreaseCartQuantity(id)}
+              >
+                -
+              </button>
               <div>
                 <span>{quantity} in cart</span>
               </div>
-              <button className="btn" onClick={() => increaseCartQuantity(id)}>+</button>
+              <button className="btn" onClick={() => increaseCartQuantity(id)}>
+                +
+              </button>
             </div>
-            <button className="dangerBtn" onClick={() => removeFromCart(id)}>Remove</button>
+            <button className="dangerBtn" onClick={() => removeFromCart(id)}>
+              Remove
+            </button>
           </div>
         )}
       </div>
