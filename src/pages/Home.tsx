@@ -35,7 +35,7 @@ export function Home() {
         <div>
           <Lottie
             animationData={animationData}
-            className="md:w-[600px] md:h-[550px] w-[250px] h-[200px] mx-auto mt-36"
+            className="md:w-[600px] md:h-[550px] w-[250px] h-[200px] mx-auto md:mt-36"
           />
         </div>
       </div>

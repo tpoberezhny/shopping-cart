@@ -15,9 +15,14 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
-      <Offcanvas.Header className="w-full border-b-2 border-dashed" closeButton>
-        <Offcanvas.Title>
-          <h1 className="tracking-widest text-4xl mb-3">Cart</h1>
+      <Offcanvas.Header className="border-b-2 border-dashed">
+        <Offcanvas.Title className="w-full">
+          <h1 className="tracking-widest text-4xl mb-3 flex justify-between">
+            Cart
+            <button className="btn md:ml-60 ml-44" onClick={closeCart}>
+              x
+            </button>
+          </h1>
         </Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
